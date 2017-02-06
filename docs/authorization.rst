@@ -105,7 +105,7 @@ cookie signing, so that our authentication cookie is secure.
 
 The last thing we need to add is to assign our context factory to our routes.
 We want this to be the route responsible for entry creation and updates.
-Modify the following emphasized lines.
+Modify the following emphasized lines in ``routes.py``.
 
 .. literalinclude:: src/authorization/routes.py
     :language: python
